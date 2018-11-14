@@ -9,3 +9,5 @@ from ..preprocessing.bbknn import bbknn
 from ..preprocessing.dca import dca
 from ..preprocessing.magic import magic
 from ..neighbors import neighbors
+
+from ..preprocessing.normalization import normalize_quantile, normalize_total
